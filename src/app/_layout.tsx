@@ -20,6 +20,11 @@ export default function RootLayout() {
           title: "Ajuda"
         }}
       />
+      <Drawer.Screen name="config"
+        options={{
+          title: "Configurações Tabs"
+        }}
+      />
     </Drawer>
   );
   
